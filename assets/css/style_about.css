@@ -1,0 +1,158 @@
+/*****************************************************************************************
+*****************************************************************************************
+Project Name: LMS
+Author Name: Tarana
+Client Name: LEDP-2020 D2
+Project Date: 02-07-2020
+Project Type: Education
+Project Section:
+				1.Top Header
+				2.Nav Header
+				4.Background Section
+				5.Courses Section
+				6.Facts Section
+
+**********************************************************************************************
+**********************************************************************************************/
+
+/**********************************************************************************************
+CSS Start
+
+*/
+
+
+/*
+============================Top Header========================*/
+.top_list ul{
+	margin-top: 2px !important;
+	padding-right: 4px !important;
+
+}
+
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+
+.first_bg_color{
+	background-color: #56ab2f;
+	height: 48px;
+	
+}
+
+.top_list{
+	list-style: none!important;
+
+}
+/*
+===================================Nav Section===================================*/
+.navsection{
+	padding-left: 30px;
+	margin-top: 10px;
+	
+	position: sticky;
+}
+.menu{
+	margin-left:600px !important;
+}
+
+
+/*====================Background start==============================*/
+
+
+.large-background {
+	background-image: url(../img/imglarge.png);
+	background-size: cover;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-top: -3px !important;
+	padding-top: 50px;
+	opacity: 150%;
+}
+
+#our {
+	margin-top: 20px;
+}
+#color {
+	color: #56ab2f;
+}
+
+
+
+.about_bg{
+	background-image: url(../img/acadimy.png);
+	height: 90%;
+	width: 100%;
+	margin-left: 19%;
+	background-repeat: no-repeat;
+}
+
+
+.principle_img{
+	height: 83%;
+	width: 40%;
+	margin-top: 15%;
+	margin-left: -10%;
+}
+#top{
+	text-align: justify;
+}
+
+.important_bg{
+	background-image: url(../img/count.png);
+	background-attachment: fixed;
+	height: auto;
+	width: 100%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.teacher{
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*
+======================Newslatter===========================
+*/
+..newslatter {
+	background-color:#56ab2f;
+
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.center form{
+	margin-right: 300px;
+}
+
+
+
+/*==========================Footer=====================*/
+
+#footer {
+	padding-top: 30px;
+    background-color: #1e1d1d !important;
+}
+.arrow ul{
+	list-style: none;
+	padding-left: 5px;
+}
+.album img{
+	padding-top: 4px;
+	padding-left: 2px;
+}
+.c_p li{
+	list-style: none;
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}

@@ -1,0 +1,119 @@
+/*****************************************************************************************
+*****************************************************************************************
+Project Name: LMS
+Author Name: Tarana
+Client Name: LEDP-2020 D2
+Project Date: 02-07-2020
+Project Type: Education
+Project Section:
+				1.Top Header
+				2.Nav Header
+				
+**********************************************************************************************
+**********************************************************************************************/
+
+/**********************************************************************************************
+CSS Start
+
+*/
+
+
+/*
+============================Top Header========================*/
+.top_list ul{
+	margin-top: 2px !important;
+	padding-right: 4px !important;
+
+}
+
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+
+.first_bg_color{
+	background-color: #56ab2f;
+	height: 48px;
+	
+}
+
+.top_list{
+	list-style: none!important;
+
+}
+/*
+===================================Nav Section===================================*/
+.navsection{
+	padding-left: 30px;
+	margin-top: 10px;
+	
+	position: sticky;
+}
+.menu{
+	margin-left:600px !important;
+}
+
+
+/*====================Background start==============================*/
+
+
+.large-background {
+	background-image: url(../img/imglarge.png);
+	background-size: cover;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-top: -3px !important;
+	padding-top: 50px;
+	opacity: 150%;
+}
+
+#our {
+	margin-top: 20px;
+}
+#color {
+	color: #56ab2f;
+}
+#sorry p{
+	color: #56ab2f;
+}
+#top h1{
+	font-size: 100px;
+	font-weight: bold;
+}
+#inner{
+	padding-left: 30px;
+}
+
+.mmm{
+	margin-bottom: 150px;
+	padding-left: 100px;
+}
+
+
+
+
+
+/*==========================Footer=====================*/
+
+#footer {
+	padding-top: 80px;
+    background-color: #1e1d1d !important;
+}
+.arrow ul{
+	list-style: none;
+	padding-left: 5px;
+}
+.album img{
+	padding-top: 4px;
+	padding-left: 2px;
+}
+.c_p li{
+	list-style: none;
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}

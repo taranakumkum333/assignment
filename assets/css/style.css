@@ -1,0 +1,143 @@
+/*****************************************************************************************
+*****************************************************************************************
+Project Name: LMS
+Author Name: Tarana
+Client Name: LEDP-2020 D2
+Project Date: 02-07-2020
+Project Type: Education
+Project Section:
+				1.Top Header
+				2.Nav Header
+				3.Slider Section
+				4.About Section
+				5.Courses Section
+				6.Facts Section
+				7.Recent News Section
+**********************************************************************************************
+**********************************************************************************************/
+
+/**********************************************************************************************
+CSS Start
+
+*/
+
+/*===================Top Header start==============*/
+
+.top_list ul{
+	margin-top: 2px !important;
+	padding-right: 4px !important;
+
+}
+
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+
+.first_bg_color{
+	background-color: #56ab2f;
+	height: 48px;
+	
+}
+
+.top_list{
+	list-style: none!important;
+
+}
+.first span{
+	margin-right: 4px;
+}
+
+
+/*===================Top Header start==============*/
+
+
+
+/*===================nav start==============*/
+
+.navsection{
+	padding-left: 30px;
+	margin-top: 10px;
+	
+	position: sticky;
+}
+.menu{
+	margin-left:600px !important;
+
+}
+
+
+/*===================Top Header end==============*/
+
+#our {
+	margin-top: 20px;
+
+}
+ #top h3 {
+ 	margin-top: 10px;
+	border-top: 1px solid black;
+}
+
+#color {
+	color: #56ab2f;
+
+}
+
+#margin {
+	margin-top: 40px;
+}
+
+.social i {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	height: 10%;
+	width: 10%;
+}
+
+#twitter {
+	color: #56ab2f; 
+}
+
+body {
+	margin-bottom:15px;
+}
+
+.large-background {
+	background-image: url(../img/imglarge.png);
+	background-size: cover;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-top: -3px !important;
+	padding-top: 50px;
+	opacity: 150%;
+}
+
+.newslatter {
+	background-color:#56ab2f;
+
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+#footer {
+	padding-top: 30px;
+    background-color: #1e1d1d !important;
+}
+.arrow ul{
+	list-style: none;
+}
+.album img{
+	padding-top: 5px;
+}
+.c_p li{
+	list-style: none;
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}

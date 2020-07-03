@@ -1,0 +1,163 @@
+/****************************************************************************************
+*****************************************************************************************
+Project Name: LMS
+Author Name: Tarana
+Client Name: LEDP-2020 D2
+Project Date: 02-07-2020
+Project Type: Education
+Project Section:
+				1.Top Header
+				2.Nav Header
+				n
+**********************************************************************************************
+**********************************************************************************************/
+
+/**********************************************************************************************
+CSS Start
+
+*/
+
+
+/*
+============================Top Header========================*/
+.top_list ul{
+	margin-top: 2px !important;
+	padding-right: 4px !important;
+
+}
+
+.top_list li:first-child{
+	padding-left: 0px !important;
+}
+
+.first_bg_color{
+	background-color: #56ab2f;
+	height: 48px;
+	
+}
+
+.top_list{
+	list-style: none!important;
+
+}
+/*
+===================================Nav Section===================================*/
+.navsection{
+	padding-left: 30px;
+	margin-top: 10px;
+	
+	position: sticky;
+}
+.menu{
+	margin-left:600px !important;
+}
+
+
+/*====================Background start==============================*/
+
+
+.large-background {
+	background-image: url(../img/imglarge.png);
+	background-size: cover;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-top: -3px !important;
+	padding-top: 50px;
+	opacity: 150%;
+}
+
+#our {
+	margin-top: 20px;
+}
+#color {
+	color: #56ab2f;
+}
+/*=======dropdown=============*/
+
+.drop{
+	border: 1px solid green;
+	padding : 2px;
+}
+.drop1{
+	border: 1px solid green;
+}
+.drop2 li{
+	border: 1px solid green;
+}
+
+/*
+ =====================course=====================
+*/
+
+.courses{
+	padding-top: 80px;
+}
+.course_content{
+	padding-bottom: 50px;
+}
+
+
+.card-body{
+	border: 1px solid #56ab2f;
+	border-top: none;
+}
+#space{
+	margin-top: 30px;
+}
+.list{
+	list-style: none;
+}
+.list-item{
+	border: 1px solid #56ab2f;
+	width: 150px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.list-item:nth-child(1){
+	border-left: none;
+}
+.list-item:nth-child(2){
+	border-left: none;
+	border-right: none;
+	background-color: #56ab2f;
+	color: white;
+}
+.list-item:nth-child(3){
+	border-right: none;
+}
+/*======================newslatter===================*/
+.newslatter {
+	background-color:#56ab2f;
+
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.center form{
+	margin-right: 300px;
+}
+
+/*===================footer================*/
+#footer {
+	padding-top: 30px;
+    background-color: #1e1d1d !important;
+}
+.arrow ul{
+	list-style: none;
+}
+.album img{
+	padding-top: 5px;
+}
+.c_p li{
+	list-style: none;
+}
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
